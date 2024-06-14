@@ -24,7 +24,7 @@ function App() {
             <AnimatePresence mode='wait'>
                 <Routes location={location} key={location.pathname}>
                     <Route
-                        path="/home"
+                        path="/"
                         element={
                             <motion.div
                                 initial="initial"

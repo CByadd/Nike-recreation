@@ -57,7 +57,7 @@ const Navbar = () => {
 
         <span className={styles.routes_maincontainer}>
           <ul className={`${isSearchActive ? styles.hidden : styles['fade-in']}`}>
-            <Link to='/home'><li>New & Featured</li></Link>
+            <Link to='/'><li>New & Featured</li></Link>
             <Link to='/mens'><li>Mens</li></Link>
             <Link to='/womens'><li>Womens</li></Link>
             <Link to='/gift'><li>Gift</li></Link>
@@ -100,7 +100,7 @@ const Navbar = () => {
       <FaShoppingCart  style={{ fontSize: "2rem", fontWeight: "bolder" }} />
       </span>
         <ul>
-        <Link to='/home'><li>New & Featured</li></Link>
+        <Link to='/'><li>New & Featured</li></Link>
             <Link to='/mens'><li>Mens</li></Link>
             <Link to='/womens'><li>Womens</li></Link>
             <Link to='/gift'><li>Gift</li></Link>
